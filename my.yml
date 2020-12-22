@@ -1,0 +1,11 @@
+extends: default
+font:
+  catalog:
+    Times_New_Roman:
+      normal: Times_New_Roman.ttf
+      bold: Times_New_Roman_Bold.ttf
+      italic: Times_New_Roman_Italic.ttf
+      bold_italic: Times_New_Roman_Bold_Italic.ttf  
+base:
+  font-color: #ff0000
+  font-family: Times_New_Roman  

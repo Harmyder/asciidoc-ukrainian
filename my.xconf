@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<fop version="1.0">
+
+  <!-- Base URL for resolving relative URLs -->
+  <base>.</base>
+ 
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf">
+          <font-triplet name="Times-Roman" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold.ttf">
+          <font-triplet name="Times-Roman" style="normal" weight="bold"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Italic.ttf">
+          <font-triplet name="Times-Roman" style="italic" weight="normal"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman_Bold_Italic.ttf">
+          <font-triplet name="Times-Roman" style="italic" weight="bold"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Arial.ttf">
+          <font-triplet name="Arial" style="normal" weight="normal"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Arial_Bold.ttf">
+          <font-triplet name="Arial" style="normal" weight="bold"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Arial_Italic.ttf">
+          <font-triplet name="Arial" style="italic" weight="normal"/>
+        </font>
+        <font embed-url="/usr/share/fonts/truetype/msttcorefonts/Arial_Bold_Italic.ttf">
+          <font-triplet name="Arial" style="italic" weight="bold"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+
+</fop>
