@@ -2,7 +2,10 @@
 Ім'я автора
 v1.0, 2003-12
 :doctype: book
+:numbered:
+//:chapter-label:
 
+include::/usr/share/ruby-asciidoctor/locale/attributes-uk.adoc[]
 
 [dedication]
 == Приклад присвяти
